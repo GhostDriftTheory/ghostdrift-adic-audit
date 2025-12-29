@@ -3,15 +3,15 @@
 <div align="center">
 </div>
 
-ghost-drift-audit-jp is an audit engine that **fixes drift detection (distribution shift / regime shift) in operational time-series forecasting as a reproducible protocol**. It outputs the split boundaries, threshold policies, input data identification, execution code, and runtime environment as a unified *certificate*, so that a third party can regenerate the same audit verdict (OK/NG) from the same inputs. In particular, estimation is restricted to the Calibration phase and the Test phase is used only for evaluation, structurally eliminating post-hoc threshold tuning (after-the-fact optimization) once results are observed. As a case study, we target electric power demand × weather time-series data (Jan–Apr 2024), generate certificates, ledgers, and evidence time series, and present the audit verdict as reproducible artifacts.
+ghost-drift-audit is an audit engine that **fixes drift detection (distribution shift / regime shift) in operational time-series forecasting as a reproducible protocol**. It outputs the split boundaries, threshold policies, input data identification, execution code, and runtime environment as a unified *certificate*, so that a third party can regenerate the same audit verdict (OK/NG) from the same inputs. In particular, estimation is restricted to the Calibration phase and the Test phase is used only for evaluation, structurally eliminating post-hoc threshold tuning (after-the-fact optimization) once results are observed. As a case study, we target electric power demand × weather time-series data (Jan–Apr 2024), generate certificates, ledgers, and evidence time series, and present the audit verdict as reproducible artifacts.
 
 ## 🔗 Quick Links
 
-* 📂 **Source Code:** [GitHub Repository](https://github.com/GhostDriftTheory/ghostdrift-adic-audit-JP)
-* 📜 **Main Script:** [ghost_drift_audit_JP.py](https://github.com/GhostDriftTheory/ghostdrift-adic-audit-JP/blob/main/ghost_drift_audit_JP.py)
-* 📦 **Download:** [Project ZIP](https://github.com/GhostDriftTheory/ghostdrift-adic-audit-JP/archive/refs/heads/main.zip)
-* 📖 **Documentation:** [Online Manual](https://ghostdrifttheory.github.io/ghostdrift-adic-audit-JP/) ([⚙️ Jump to Execution Mode](https://ghostdrifttheory.github.io/ghostdrift-adic-audit-JP/#profile))
-* 🚨 **Support:** [Report Issues](https://github.com/GhostDriftTheory/ghostdrift-adic-audit-JP/issues)
+* 📂 **Source Code:** [GitHub Repository](https://github.com/GhostDriftTheory/ghostdrift-adic-audit)
+* 📜 **Main Script:** [ghost_drift_audit_JP.py](https://github.com/GhostDriftTheory/ghostdrift-adic-audit/blob/main/ghost_drift_audit_EN.py)
+* 📦 **Download:** [Project ZIP](https://github.com/GhostDriftTheory/ghostdrift-adic-audit/archive/refs/heads/main.zip)
+* 📖 **Documentation:** [Online Manual](https://ghostdrifttheory.github.io/ghostdrift-adic-audit/) ([⚙️ Jump to Execution Mode](https://ghostdrifttheory.github.io/ghostdrift-adic-audit/#profile))
+* 🚨 **Support:** [Report Issues](https://github.com/GhostDriftTheory/ghostdrift-adic-audit/issues)
 
 ---
 
@@ -125,4 +125,4 @@ python ghost_drift_audit_JP.py
 * **Data:** Synthetic dataset for demonstration.
 
 **From “prediction” to “accountability.”**
-Produced by **GhostDrift Mathematical Institute (GMI)** — [Official Website](https://www.ghostdriftresearch.com/) | [Online Documentation](https://ghostdrifttheory.github.io/ghostdrift-adic-audit-JP/)
+Produced by **GhostDrift Mathematical Institute (GMI)** — [Official Website](https://www.ghostdriftresearch.com/) | [Online Documentation](https://ghostdrifttheory.github.io/ghostdrift-adic-audit/)
