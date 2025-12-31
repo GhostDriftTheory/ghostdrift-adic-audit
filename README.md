@@ -15,6 +15,14 @@ ghost-drift-audit is an audit engine that **fixes drift detection (distribution 
 
 ---
 
+## 📑 Audit Report (PDF)
+
+- **Report:** [Scientific Audit Report on Structural Integrity of Forecasting Models](./Scientific%20Audit%20Report%20on%20Structural%20Integrity%20of%20Forecasting%20Models.pdf)
+- **Verdict:** NG (TAU_CAP_HIT)
+- **Protocol:** Ghost Drift Audit v8.0
+
+---
+
 ## 💎 Design Philosophy: From "Probabilistic" to "Accountable"
 
 To address the “opaque inference” problem in conventional AI operations, this framework provides the following.
