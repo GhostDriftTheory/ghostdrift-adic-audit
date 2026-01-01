@@ -2,12 +2,14 @@
 
 **Keywords:** drift detection, time-series forecasting, model monitoring, MLOps, audit trail, reproducibility, accountability, electricity demand forecasting
 
-<img src="docsaudit_flow_certificate_ledger_verifier.png" width="600" alt="Certificate–Ledger–Verifier Flow">
-*End-to-end audit flow: fixed certificate → immutable ledger → independent verifier (OK / NG).*
+<img src="certificate-ledger-verifier-flow-time-series-audit.png" width="600" alt="Certificate–Ledger–Verifier Flow">
+**Protocol overview: fixed certificate → append-only ledger → independent verifier (OK / NG).**
 
-ghost-drift-audit is a certificate-based **drift detection and model monitoring audit engine for operational time-series forecasting (MLOps)**. It fixes distribution shift / regime shift evaluation as a **reproducible audit protocol with an immutable audit trail**, enabling third parties to regenerate the same OK/NG verdict from identical inputs.
-Note: The bundled CSV files are dummy data for smoke testing only; the published audit certificates target real electricity demand × weather data (Jan–Apr 2024).
-As a case study, this repository audits **electricity demand forecasting models** using power demand × weather time-series data (Jan–Apr 2024), and outputs certificates, ledgers, and evidence time series as reproducible audit artifacts.
+ghost-drift-audit is a certificate-based audit engine for drift detection in operational time-series forecasting (MLOps). It outputs a verifiable certificate + immutable ledger so any third party can reproduce the same OK/NG verdict from the same inputs—no post-hoc threshold tuning after results are observed.
+Note: Bundled CSVs are dummy data for smoke tests. The published certificates and audit report correspond to the real Jan–Apr 2024 electricity demand × weather dataset.
+Case study: electricity demand forecasting (power demand × weather, Jan–Apr 2024). This repo exports certificates, ledgers, and evidence time series as reproducible audit artifacts.
+
+---
 
 ## 🔗 Quick Links
 
