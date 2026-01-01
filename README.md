@@ -2,7 +2,7 @@
 
 **Keywords:** drift detection, time-series forecasting, model monitoring, MLOps, audit trail, reproducibility, accountability, electricity demand forecasting
 
-![Certificate–Ledger–Verifier Flow](docsaudit_flow_certificate_ledger_verifier.png)
+<img src="docsaudit_flow_certificate_ledger_verifier.png" width="600" alt="Certificate–Ledger–Verifier Flow">
 
 *End-to-end audit flow: fixed certificate → immutable ledger → independent verifier (OK / NG).*
 
