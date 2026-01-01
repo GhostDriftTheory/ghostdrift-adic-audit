@@ -139,6 +139,11 @@ python ghost_drift_audit_JP.py
 * **Code:** MIT License
 * **Data:** Synthetic dataset for demonstration.
 
+Patent Notice:
+This repository implements techniques related to a pending patent application.
+Japanese Patent Application No. 特願2025-182213.
+This notice does not restrict use of the open-source code under the MIT License.
+
 **From “prediction” to “accountability.”**
 This repository provides a practical reference implementation for certificate-based drift detection, audit trails, and accountable model monitoring in time-series forecasting systems.
 Produced by **GhostDrift Mathematical Institute (GMI)** — [Official Website](https://www.ghostdriftresearch.com/) | [Online Documentation](https://ghostdrifttheory.github.io/ghostdrift-adic-audit/)
