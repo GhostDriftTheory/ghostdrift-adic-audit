@@ -3,6 +3,7 @@
 **Keywords:** drift detection, time-series forecasting, model monitoring, MLOps, audit trail, reproducibility, accountability, electricity demand forecasting
 
 <img src="certificate-ledger-verifier-flow-time-series-audit.png" width="600" alt="Certificate–Ledger–Verifier Flow">
+
 **Protocol overview: fixed certificate → append-only ledger → independent verifier (OK / NG).**
 
 ghost-drift-audit is a certificate-based audit engine for drift detection in operational time-series forecasting (MLOps). It outputs a verifiable certificate + immutable ledger so any third party can reproduce the same OK/NG verdict from the same inputs—no post-hoc threshold tuning after results are observed.
