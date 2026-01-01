@@ -1,9 +1,12 @@
-**Certificate-Based Auditing for Reproducible Drift Detection: An Empirical Study in Time-Series Forecasting**
+**Certificate-Based Drift Detection Audit for Time-Series Forecasting (Electricity Demand × Weather)**
 
 <div align="center">
+  **Keywords:** drift detection, time-series forecasting, model monitoring, MLOps, audit trail, reproducibility, accountability, electricity demand forecasting
 </div>
 
-ghost-drift-audit is an audit engine that **fixes drift detection (distribution shift / regime shift) in operational time-series forecasting as a reproducible protocol**. It outputs the split boundaries, threshold policies, input data identification, execution code, and runtime environment as a unified *certificate*, so that a third party can regenerate the same audit verdict (OK/NG) from the same inputs. In particular, estimation is restricted to the Calibration phase and the Test phase is used only for evaluation, structurally eliminating post-hoc threshold tuning (after-the-fact optimization) once results are observed. As a case study, we target electric power demand × weather time-series data (Jan–Apr 2024), generate certificates, ledgers, and evidence time series, and present the audit verdict as reproducible artifacts.
+ghost-drift-audit is a certificate-based **drift detection and model monitoring audit engine for operational time-series forecasting (MLOps)**. It fixes distribution shift / regime shift evaluation as a **reproducible audit protocol with an immutable audit trail**, enabling third parties to regenerate the same OK/NG verdict from identical inputs.
+Note: The bundled CSV files are dummy data for smoke testing only; the published audit certificates target real electricity demand × weather data (Jan–Apr 2024).
+As a case study, this repository audits **electricity demand forecasting models** using power demand × weather time-series data (Jan–Apr 2024), and outputs certificates, ledgers, and evidence time series as reproducible audit artifacts.
 
 ## 🔗 Quick Links
 
@@ -53,8 +56,8 @@ To address the “opaque inference” problem in conventional AI operations, thi
 ```text
 .
 ├── ghost_drift_audit_JP.py    # Core Logic & Audit Engine
-├── electric_load_weather.csv  # Input: Weather (Synthetic)
-├── power_usage.csv            # Input: Demand (Synthetic)
+├── electric_load_weather.csv  # Input: Weather (dummy for smoke test)
+├── power_usage.csv            # Input: Demand (dummy for smoke test)
 └── adic_out/                  # Output: Accountability Ledger
 ```
 
@@ -133,4 +136,5 @@ python ghost_drift_audit_JP.py
 * **Data:** Synthetic dataset for demonstration.
 
 **From “prediction” to “accountability.”**
+This repository provides a practical reference implementation for certificate-based drift detection, audit trails, and accountable model monitoring in time-series forecasting systems.
 Produced by **GhostDrift Mathematical Institute (GMI)** — [Official Website](https://www.ghostdriftresearch.com/) | [Online Documentation](https://ghostdrifttheory.github.io/ghostdrift-adic-audit/)
