@@ -135,14 +135,12 @@ python ghost_drift_audit_JP.py
 ---
 
 ## 📜 License & Acknowledgments
+© 2026 GhostDrift Mathematical Institute.  
+This version is released under a custom license:  
+- Research and evaluation use: permitted without charge  
+- Commercial use: requires explicit license from GhostDrift Mathematical Institute  
+- All other uses: prohibited without permission  
 
-* **Code:** MIT License
-* **Data:** Synthetic dataset for demonstration.
-
-Patent Notice:
-This repository implements techniques related to a pending patent application.
-Japanese Patent Application No. 特願2025-182213.
-This notice does not restrict use of the open-source code under the MIT License.
 
 **From “prediction” to “accountability.”**
 This repository provides a practical reference implementation for certificate-based drift detection, audit trails, and accountable model monitoring in time-series forecasting systems.
