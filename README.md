@@ -10,6 +10,15 @@ ghost-drift-audit is a certificate-based audit engine for drift detection in ope
 Note: Bundled CSVs are dummy data for smoke tests. The published certificates and audit report correspond to the real Jan–Apr 2024 electricity demand × weather dataset.
 Case study: electricity demand forecasting (power demand × weather, Jan–Apr 2024). This repo exports certificates, ledgers, and evidence time series as reproducible audit artifacts.
 
+## Formal Verification
+
+The core lemma of the ADIC framework has been formally verified using the Lean theorem prover.
+
+Lean proof artifact:
+https://ghostdrifttheory.github.io/adic-lean-proof/
+
+Core file: `ADIC_RSound.lean`
+
 ---
 
 ## 🔗 Quick Links
