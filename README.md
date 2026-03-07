@@ -15,7 +15,7 @@ Case study: electricity demand forecasting (power demand × weather, Jan–Apr 2
 The core lemma of the ADIC framework has been formally verified using the Lean theorem prover.
 
 Lean proof artifact:
-https://ghostdrifttheory.github.io/adic-lean-proof/
+[https://ghostdrifttheory.github.io/adic-lean-proof/](https://ghostdrifttheory.github.io/adic-lean-proof/)
 
 Core file: `ADIC_RSound.lean`
 
